@@ -5,7 +5,7 @@
 
 body{
     font:15px/1.5 Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #dc7647;
 }
 
 /* Global */
@@ -23,22 +23,39 @@ ul{
 
 .button_1{
     height: 38px;
-    background: #e8491d;
+    background: #ef2c44;
     border: none;
     padding-left: 20px;
     padding-right: 20px;
     color: #ffffff;
     border-radius: 5px;
 }
+.button_2{
+    height: 38px;
+    background: #130405;
+    border: none;
+    margin-top: 60px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    float: left center;
+    
+    
+}
 
 /* Header */
 
 header{
-    background: #35424a;
+    background: #45255d;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid; 
+    border-bottom: #060505 3px solid; 
 }
 
 header a{
@@ -70,7 +87,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #f55e31;
     font-weight: bold;
 }
 
@@ -102,9 +119,9 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color:#ffffff;
-    background: #35424a;
-    border-bottom: #e8491d 3px solid;
-    border-top: #e8491d 3px solid;
+    background: #3e2352;
+    border-bottom: #080706 3px solid;
+    border-top: #080706 3px solid;
 }
 
 #newsletter h2{
